@@ -3,11 +3,11 @@ int main(void)
 {
 int year =2021;
 int isLeapyear =0;
-if(year %4 =0){
+if(year %4 ==0){
 
-    if(year %100=0){
+    if(year %100==0){
 
-        if(year %400 =0){
+        if(year %400 ==0){
 
             isLeapyear=1;
         }else{
