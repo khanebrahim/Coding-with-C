@@ -2,7 +2,7 @@
 int main()
 {
     int width,height,i,j;
-    printf("Enter widht and height:");
+    printf("Enter width and height:");
     scanf("%d %d", &width, &height);
     for(i=0; i<height;i++){
     for(j=0;j<width;j++){
@@ -13,4 +13,5 @@ int main()
     }
     
     return 0;
+
 }
