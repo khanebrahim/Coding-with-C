@@ -11,10 +11,11 @@ int main(void)
 
     int lucky_number = rand() %10+1;
     while(chance>0){
-        printf("Guess the lucky number:");
+        printf("Guess the lucky number (%d):",chance);
         scanf("%d", &choosen_number);
         if (lucky_number == choosen_number){
             printf("congratulation! you have choose the correct number\n");
+            is_loss =false;
             break;
         }
         chance --;
