@@ -12,4 +12,5 @@ int main()
         scanf(" %c" ,&ch);
     }
     return 0;
+    
 }
